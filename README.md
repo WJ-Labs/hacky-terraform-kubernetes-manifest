@@ -27,7 +27,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_field_manager"></a> [field\_manager](#input\_field\_manager) | Configure field manager options. | <pre>object({<br>    name            = optional(string, null)<br>    force_conflicts = bool<br>  })</pre> | `null` | no |
-| <a name="input_manifest"></a> [manifest](#input\_manifest) | An object Kubernetes manifest describing the desired state of the resource in HCL format. | `object(any)` | n/a | yes |
+| <a name="input_manifest"></a> [manifest](#input\_manifest) | An object Kubernetes manifest describing the desired state of the resource in HCL format. | `map(any)` | n/a | yes |
 
 ## Outputs
 
