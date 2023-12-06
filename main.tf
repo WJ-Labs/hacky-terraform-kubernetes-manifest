@@ -1,6 +1,6 @@
 resource "kubernetes_manifest" "this" {
   manifest = var.manifest
-  
+
   dynamic "field_manager" {
     for_each = var.field_manager == null ? [] : [1]
     content {
