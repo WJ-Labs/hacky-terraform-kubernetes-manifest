@@ -1,5 +1,5 @@
 variable "manifest" {
-  type        = object(any)
+  type        = map(any)
   description = "An object Kubernetes manifest describing the desired state of the resource in HCL format."
 }
 
