@@ -9,5 +9,5 @@ variable "field_manager" {
     force_conflicts = bool
   })
   description = "Configure field manager options."
-  default = null
+  default     = null
 }
