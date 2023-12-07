@@ -1,5 +1,5 @@
 variable "manifest" {
-  type        = string
+  type        = any
   description = "The file containing the configuration in YAML format."
 }
 
