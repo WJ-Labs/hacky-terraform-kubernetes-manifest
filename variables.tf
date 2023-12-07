@@ -1,6 +1,6 @@
 variable "manifest" {
-  type        = map(any)
-  description = "An object Kubernetes manifest describing the desired state of the resource in HCL format."
+  type        = string
+  description = "The file containing the configuration in YAML format."
 }
 
 variable "field_manager" {
